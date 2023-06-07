@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 const request = axios.create({
-    baseURL : "http://localhost:8080"
+    baseURL : "https://booking-app-mern-backend.onrender.com"
 })
 
 export default request
