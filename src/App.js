@@ -22,7 +22,6 @@ import OwnerUpdateHotelDashboard from "./pages/ownerDashboard/ownerUpdateHotelDa
 import ErrorPage from "./pages/errorPage/ErrorPage";
 
 function App() {
-  const { userId } = useParams();
   const { user } = useSelector((state) => state.auth);
   const { OwnerHotelInfo } = useSelector((state) => state.hotels);
   return (
@@ -49,17 +48,10 @@ function App() {
         />
         <Route path="/hotels" element={<HotelFilterPage />} />
         <Route path="/hotel/:hotelId" element={<SingleHotel />} />
-        <Route
-          path="/profile/:userId"
-          element={<ProfilePage />}
-        />
+        <Route path="/profile/:userId" element={<ProfilePage />} />
         <Route
           path="/my-booking/:userId"
-          element={
-            user?.isHotelOwner ? (
-              <Navigate to={"/"} />
-            ) : <BookingPage />
-          }
+          element={user?.isHotelOwner ? <Navigate to={"/"} /> : <BookingPage />}
         />
         <Route
           path="/owner/dashboard"
@@ -103,7 +95,7 @@ function App() {
             )
           }
         />
-        <Route path="*" element={<ErrorPage/>}/>
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
   );
