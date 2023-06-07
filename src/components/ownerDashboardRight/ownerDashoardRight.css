@@ -1,0 +1,76 @@
+.owner-dashboard-right{
+    overflow: scroll;
+    height: 100%;
+    padding: 130px;
+}
+.owner-dashboard-right::-webkit-scrollbar{
+    display: none;
+}
+.header-card{
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px #c0baba;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.owner-dashboard-right .card{
+    background-color: #fff;
+    box-shadow: -2px 3px 10px #ece4e4;
+    border: 0px;
+    width: 100%;
+    padding: 15px 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.owner-dashboard-right .bg-purple{
+    background-color: #b90cd0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff!important;
+    font-size: 25px;
+}
+.owner-dashboard-right .bg-green{
+    background-color: #2fe411;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff!important;
+    font-size: 25px;
+}
+.owner-dashboard-right .bg-orange{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff!important;
+    font-size: 25px;
+}
+.owner-dashboard-right .color-green{
+    color: #2fe411;
+    font-size: 25px;
+}
+.owner-dashboard-right .color-purple{
+    color: #b90cd0;
+    font-size: 25px;
+}
+.owner-dashboard-right .color-orange{
+    color: orange;
+    font-size: 25px;
+}
+.owner-dashboard-right .card h5{
+    color: #585858;
+}
+.chart-owner-dashboard{
+    overflow-x: scroll;
+}

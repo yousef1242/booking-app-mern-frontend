@@ -1,0 +1,64 @@
+.model-add-review{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.model-review{
+    background-color: #fff;
+    z-index: 9999;
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 9px #777;
+}
+.header-model{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.model-review::-webkit-scrollbar{
+    display: none;
+}
+.header-model h3{
+    font-weight: 600;
+}
+.header-model i{
+    top: 126px;
+    background: #77777729;
+    padding: 4px 7px;
+    border-radius: 50%;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}
+.model-add-review form{
+    width: 100%;
+}
+.model-add-review form label{
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+}
+.model-add-review form textarea{
+    width: 100%;
+}
+.model-add-review form .model-add-review-btn{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--red-color);
+    color: #000;
+    transition: .3s;
+}
+.model-add-review form .model-add-review-btn:hover{
+    background-color: var(--red-color);
+    color: #fff;
+}

@@ -1,0 +1,19 @@
+.owner-dashboard-booking-right{
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.owner-dashboard-booking-right::-webkit-scrollbar{
+    display: none;
+}
+.owner-dashboard-booking-right .container table .red-color{
+    color: var(--red-color);
+    text-decoration: underline;
+}
+.owner-dashboard-booking-right .container table .green-color{
+    color: green;
+    text-decoration: underline;
+}
+.owner-dashboard-booking-right h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,117 @@
+.owner-dashboard-add-hotel{
+    overflow: scroll;
+    height: 100%;
+    padding: 130px 0px;
+}
+.owner-dashboard-add-hotel::-webkit-scrollbar{
+    display: none;
+}
+
+.owner-dashboard-add-hotel .container form .form-group{
+    margin-bottom: 25px;
+}
+.owner-dashboard-add-hotel .container form .form-group label{
+    font-weight: bold;
+    font-size: 21px;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.owner-dashboard-add-hotel .container form .form-group input,.owner-dashboard-add-hotel .container form .form-group textarea{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    border: 1px solid var(--red-color);
+}
+.owner-dashboard-add-hotel .container form  .upload-image{
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    border: 1px solid var(--red-color);
+    height: auto;
+}
+.owner-dashboard-add-hotel .container form  .upload-image .upload-controller{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.owner-dashboard-add-hotel .container form  .upload-image .upload-controller input{
+    display: none;
+}
+.owner-dashboard-add-hotel .container form  .upload-image .upload-controller label{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #777;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owner-dashboard-add-hotel .container form .feature-checkbox{
+    margin-bottom: 15px;
+}
+.owner-dashboard-add-hotel .container form .feature-checkbox .card{
+    position: relative;
+    height: 100px;
+    border: 1px solid var(--red-color);
+    border-radius: 5px;
+    outline: none;
+}
+.owner-dashboard-add-hotel .container form .feature-checkbox .card input{
+    display: none;
+}
+.owner-dashboard-add-hotel .container form .feature-checkbox .card label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 21px;
+    justify-content: center;
+    cursor: pointer;
+}
+.owner-dashboard-add-hotel form .form-btn{
+    width: 100%;
+}
+.owner-dashboard-add-hotel form button{
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid var(--red-color);
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 20px;
+    transition: .3s;
+    background-color: var(--red-color);
+}
+.owner-dashboard-add-hotel form button:hover{
+    background-color: var(--low-color);
+    color: #fff;
+}
+.owner-dashboard-add-hotel .feature-checkbox .card.selected {
+    background-color: red;
+    color: #fff;
+}
+.owner-dashboard-add-hotel .upload-image .upload-images-con{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.owner-dashboard-add-hotel .upload-image .image-upload-div{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.owner-dashboard-add-hotel .upload-image .upload-image-shape{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

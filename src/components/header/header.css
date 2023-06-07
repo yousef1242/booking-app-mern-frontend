@@ -1,0 +1,46 @@
+.navbar-{
+    border-bottom: 1px solid #7777771f;
+}
+.logo-link{
+    font-size: 25px;
+    color: var(--red-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo-link:hover{
+    color: var(--red-color);
+}
+.link-user{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.login-link{
+    margin-right: 15px;
+    background-color: var(--red-color);
+    color: #fff;
+    transition: .3s;
+    border: 1px var(--red-color) solid;
+}
+.register-link{
+    background-color: #fff;
+    color: black;
+    transition: .3s;
+    border: 1px var(--red-color) solid;
+}
+.login-link:hover{
+    background-color: #fff;
+    color: #000;
+}
+.register-link:hover{
+    background-color: var(--red-color);
+    color: #fff;
+}
+.link-user-info{
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+}
+.link-user-info:hover{
+    color: #000;
+}

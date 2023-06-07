@@ -1,0 +1,24 @@
+.front-page{
+    background-image: url("../../images/frontImage.jpeg");
+    height: 430px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.front-page .container h1{
+    color: #fff;
+    font-size: 40px;
+}
+.front-btn{
+    background: var(--red-color);
+    border: 1px solid var(--red-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+    margin-top: 20px;
+}
+.front-btn:hover{
+    background-color: var(--low-color);
+}

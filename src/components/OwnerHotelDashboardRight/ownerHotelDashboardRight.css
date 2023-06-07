@@ -1,0 +1,79 @@
+.owner-dashboard-hotel{
+    overflow: scroll;
+}
+.owner-dashboard-hotel::-webkit-scrollbar{
+    display: none;
+}
+.owner-dashboard-hotel .container .div-detail{
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #777;
+    margin-bottom: 15px!important;
+}
+.owner-dashboard-hotel .container .feature-div{
+    background-color: #777;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+.owner-dashboard-hotel .container .image-div{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-right: 5px;
+}
+.owner-dashboard-hotel .container .image-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.owner-dashboard-hotel .container .div-detail .d-flex{
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.owner-dashboard-hotel .container .div-detail .show-more{
+    display: block;
+    margin-top: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+.owner-dashboard-hotel .container .delete-hotel-btn{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid var(--red-color);
+    transition: .3s;
+    color: #000;
+}
+.owner-dashboard-hotel .container .delete-hotel-btn:hover{
+    background-color: var(--red-color);
+    color: #fff;
+}
+.owner-dashboard-hotel .container .update-hotel-btn{
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: .3s;
+    border: 1px solid green;
+    color: #fff;
+    text-decoration: none;
+}
+.owner-dashboard-hotel .container .update-hotel-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.owner-dashboard-hotel .no-hotel-found{
+    font-weight: bold;
+    font-size: 30px;
+}
+.owner-dashboard-hotel .feature-div-detail-hotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}

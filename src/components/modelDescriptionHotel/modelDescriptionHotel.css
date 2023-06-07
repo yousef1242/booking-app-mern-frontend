@@ -1,0 +1,42 @@
+.model-description{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 999;
+}
+.model-description .overflow-scroll::-webkit-scrollbar{
+    display: none;
+}
+.model-description .overflow-scroll{
+    height: 500px;
+    width: 500px;
+    background: #fff;
+    padding: 65px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 9px #777;
+    position: relative;
+} 
+.div-icon{
+    position: fixed;
+    height: 57px;
+    width: 500px;
+    background-color: #fff;
+    z-index: 99999999999999;
+    top: 123px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.div-icon i{
+    top: 126px;
+    background: #77777729;
+    padding: 4px 7px;
+    border-radius: 50%;
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+}

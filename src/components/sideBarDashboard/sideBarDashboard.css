@@ -1,0 +1,35 @@
+.side-bar-dashboard{
+    overflow-y: scroll;
+    height: 100%;
+    padding: 30px;
+    background-color: #526D82;
+    border-radius: 20px;
+    border-radius: 0px 30px 30px 0px;
+}
+.side-bar-dashboard::-webkit-scrollbar{
+    display: none;
+}
+.side-bar-dashboard h3{
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.side-bar-dashboard a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 5px;
+    width: 100%;
+    transition: .3s;
+    padding: 10px;
+}
+.side-bar-dashboard a i{
+    margin-right: 7px;
+}
+.side-bar-dashboard a:hover{
+    background-color:#fff ;
+    color: #000;
+}

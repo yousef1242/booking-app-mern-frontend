@@ -1,0 +1,159 @@
+.lone-image{
+    padding: 0px 0px 0px 80px;
+    height: 98%!important;
+    transition: .3s;
+    position: relative;
+}
+.lone-image:hover {
+    opacity: .8;
+}
+.other-images{
+    transition: .3s;
+}
+.other-images:hover {
+    opacity: .8;
+}
+.card-booking{
+    background-color: #fff;
+    height: 287px;
+    box-shadow: 2px 8px 16px -2px #7777;
+    padding: 20px;
+    border-radius: 11px;
+}
+.price{
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+}
+.review{
+    font-size: 21px;
+}
+.checkin-input{
+    height: 50px;
+    padding: 0px 10px;
+    border: 1px solid rgb(221 208 208);
+    border-bottom: 0px;
+}
+.checkout-input{
+    height: 50px;
+    padding: 0px 10px;
+    border: 1px solid rgb(221 208 208);
+    border-bottom: 0px;
+}
+.checkin-label{
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    left: 22px;
+}
+.not-allowed{
+    cursor: not-allowed;
+}
+.checkout-label{
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    left:9px;
+}
+.book-btn{
+    width: 100%;
+    margin-top: 16px;
+    background: var(--red-color);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 0px;
+    transition: .3s;
+}
+.book-btn:hover{
+    background-color: var(--low-color);
+}
+.dropdown {
+    background: none!important;
+    color: black!important;
+    border: 1px solid rgb(221 208 208);
+    outline: none;
+}
+.btn.show{
+    color: #000!important;
+    background: none!important;
+    border: 1px solid rgb(221 208 208)!important;
+    outline: none;
+}
+.dropdown button{
+    background: none!important;
+    color: #000;
+    border-radius: 0px;
+    border: 1px solid rgb(221 208 208)!important;
+}
+.dropdown button:hover{
+    color: #000;
+    background: none;
+    border: 1px solid rgb(221 208 208)!important;
+}
+.dropdown button:focus{
+    color: #000;
+    background: none;
+    border: 1px solid rgb(221 208 208)!important;
+}
+/* reviews */
+.review-div{
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgb(221 208 208)!important;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+.user-info-review{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.div-image-review{
+    width: 50px;
+    height: 100%;
+    margin-right: 10px;
+}
+.div-image-review img{
+    border-radius: 50%;
+    height: 50px;
+    width: 60px;
+}
+.all-review-show{
+    width: fit-content!important;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 5px;
+    border: 1px var(--red-color) solid;
+    background-color: #fff;
+    transition: .3s;
+}
+.all-review-show:hover{
+    background-color: var(--red-color);
+    color: #fff;
+}
+.add-review-btn{
+    width: fit-content!important;
+    padding: 10px 15px;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px var(--red-color) solid;
+    background-color: var(--red-color);
+    transition: .3s;
+}
+.add-review-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+@media screen and (max-width:992px) {
+    .lone-image{
+        padding: 0px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:768px) {
+    .lone-image{
+        height: 100%!important;
+    }
+}

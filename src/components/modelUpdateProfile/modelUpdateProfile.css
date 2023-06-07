@@ -1,0 +1,79 @@
+.model-update-profile{
+    height: calc(100vh - 75px);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #0000001a;
+    justify-content: center;
+    bottom: 0;
+}
+.update-profile{
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 8px 16px -2px #7777;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header h5{
+    font-weight: 600;
+    color: black;
+    font-size: 21px;
+}
+.top-header i{
+    padding: 5px 7px;
+    background-color: #efefef;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+}
+form{
+    margin-top: 10px;
+}
+.model-update-profile .form-group{
+    margin-bottom: 15px;
+}
+.model-update-profile  .form-group label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 18px;
+    width: 100%;
+}
+.model-update-profile  .form-group input{
+    display: block;
+    padding: 10px;
+    border: 1px solid var(--low-color);
+    border-radius: 5px;
+    outline: 0px;
+    width: 100%;
+}
+.model-update-profile .form-btn-update{
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--red-color);
+    transition: .3s;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    outline: 0px;
+    color: #fff;
+    border: none;
+}
+.model-update-profile .form-btn-update:hover{
+    background-color: var(--low-color);
+}
+
+@media screen and  (max-width:768px) {
+    .model-update-profile{
+        height: calc(100vh - 72px);
+    }
+}
