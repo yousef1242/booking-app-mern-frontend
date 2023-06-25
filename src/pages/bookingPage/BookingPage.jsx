@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import "./bookingPage.css";
 import { useDispatch, useSelector } from "react-redux";
-import { setBookingForUserApiCall, setCancelBookingApiCall } from "../../redux/apiCalls/bookingApiCall";
+import {
+  setBookingForUserApiCall,
+  setCancelBookingApiCall,
+} from "../../redux/apiCalls/bookingApiCall";
 import { Link } from "react-router-dom";
 
 const BookingPage = () => {
@@ -55,7 +58,14 @@ const BookingPage = () => {
                           canceled
                         </span>
                       ) : (
-                        <button onClick={() => dispatch(setCancelBookingApiCall(book?._id))} className="cancel-btn">cancel this trip</button>
+                        <button
+                          onClick={() =>
+                            dispatch(setCancelBookingApiCall(book?._id))
+                          }
+                          className="cancel-btn"
+                        >
+                          cancel this trip
+                        </button>
                       )}
                     </div>
                     <div className="child">
@@ -68,7 +78,9 @@ const BookingPage = () => {
           ) : (
             <>
               <h2 className="no-booking-text">No booking</h2>
-              <Link className="link-booking" to={`/hotels?search=`}>Book now</Link>
+              <Link className="link-booking" to={`/hotels?search=`}>
+                Book now
+              </Link>
             </>
           )}
         </div>
